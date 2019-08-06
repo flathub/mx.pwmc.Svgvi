@@ -8,11 +8,7 @@
     "--share=network",
     "--share=ipc",
     "--socket=x11",
-    "--socket=wayland",
-    "--filesystem=xdg-run/dconf",
-    "--filesystem=~/.config/dconf:ro",
-    "--talk-name=ca.desrt.dconf",
-    "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+    "--socket=wayland"
   ],
   "cleanup": [
     "/include",
@@ -48,7 +44,7 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gxml.git",
-          "commit": "182e8688019b9c8e050f2a014c8f995a840f2a68"
+          "commit": "f15e096d79ba0bd12e6ece75dc0a6f0d543d3547"
         }
       ]
     },
@@ -84,7 +80,7 @@
         {
           "type": "git",
           "url": "https://gitlab.com/pwmc/gsvgtk.git",
-          "commit": "f5f8d5df1e4df23be55dafb53d53086ad1edf28c"
+          "commit": "0bdd6f87888da18de77b58dc02826987fca66bb1"
         }
       ]
     },
@@ -106,7 +102,7 @@
         {
           "type": "git",
           "url": "https://gitlab.com/pwmc/svgvi.git",
-          "commit": "8a0c11bf66f259d84120803049ff8f0bd049f567"
+          "commit": "771ec8f44bafa1d059938a82372476004e1ef7d8"
         }
       ]
     }

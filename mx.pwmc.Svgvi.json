@@ -102,7 +102,7 @@
         {
           "type": "git",
           "url": "https://gitlab.com/pwmc/svgvi.git",
-          "commit": "771ec8f44bafa1d059938a82372476004e1ef7d8"
+          "commit": "107a77b1c7c0b74e9fd363a61d7a3bc9908d0ed2"
         }
       ]
     }

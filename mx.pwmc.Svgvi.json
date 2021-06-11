@@ -135,6 +135,10 @@
           "type": "git",
           "url": "https://gitlab.com/pwmc/svgvi.git",
           "commit": "107a77b1c7c0b74e9fd363a61d7a3bc9908d0ed2"
+        },
+        {
+          "type": "patch",
+          "path": "appdata-screenshot.patch"
         }
       ]
     }

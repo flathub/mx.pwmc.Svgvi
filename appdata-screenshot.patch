@@ -1,0 +1,13 @@
+diff --git a/data/mx.pwmc.Svgvi.appdata.xml.in b/data/mx.pwmc.Svgvi.appdata.xml.in
+index e3e92b2..150ebf7 100644
+--- a/data/mx.pwmc.Svgvi.appdata.xml.in
++++ b/data/mx.pwmc.Svgvi.appdata.xml.in
+@@ -31,7 +31,7 @@
+   <screenshots>
+     <screenshot type="default">
+       <caption>SVGVi editor</caption>
+-      <image type="source" width="1366" height="742">https://www.pwmc.mx/web/image/3264</image>
++      <image type="source" width="2876" height="1744">https://gitlab.com/pwmc/svgvi/-/raw/1.6/screenshots/svgvi1.png</image>
+     </screenshot>
+   </screenshots>
+   <content_rating type="oars-1.1" />

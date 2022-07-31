@@ -1,0 +1,108 @@
+From 055ecfd351dea99c817a5c438cc4a436f25e178f Mon Sep 17 00:00:00 2001
+From: bbhtt <62639087+bbhtt@users.noreply.github.com>
+Date: Sun, 31 Jul 2022 12:03:13 +0530
+Subject: [PATCH] appdata patch
+
+---
+ data/mx.pwmc.Svgvi.appdata.xml.in | 43 +++++++++++++++----------------
+ 1 file changed, 21 insertions(+), 22 deletions(-)
+
+diff --git a/data/mx.pwmc.Svgvi.appdata.xml.in b/data/mx.pwmc.Svgvi.appdata.xml.in
+index ff451d1..6d2c60e 100644
+--- a/data/mx.pwmc.Svgvi.appdata.xml.in
++++ b/data/mx.pwmc.Svgvi.appdata.xml.in
+@@ -1,27 +1,32 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <component type="desktop">
++
+   <!-- Copyright 2019 PWMC Services S.A.S. de C.V. -->
+-	<id>mx.pwmc.Svgvi.desktop</id>
+-	<metadata_license>CC0-1.0</metadata_license>
+-	<project_license>GPL-3.0-or-later</project_license>
++  <id>mx.pwmc.Svgvi</id>
++  <launchable type="desktop-id">mx.pwmc.Svgvi.desktop</launchable>
++  <provides>
++    <id>mx.pwmc.Svgvi.desktop</id>
++  </provides>
++  <metadata_license>CC0-1.0</metadata_license>
++  <project_license>GPL-3.0-or-later</project_license>
+   <name>SvgVisor</name>
+   <summary>SVG viewer and editor using XML declarations</summary>
+   <update_contact>pwmc-services@pwmc.mx</update_contact>
+   <url type="homepage">https://www.pwmc.mx/page/svgvi-1</url>
+   <url type="bugtracker">https://gitlab.com/pwmc/svgvi/issues</url>
+   <translation>https://gitlab.com/pwmc/svgvi</translation>
+-	<description>
+-	  SVG file viewer and editor, with preview on changes made on XML definition
+-	</description>
++  <description>
++    <p>SVG file viewer and editor, with preview on changes made on XML definition</p>
++  </description>
+   <screenshots>
+     <screenshot type="default">
+       <caption>GSVGtk Logo</caption>
+-      <image type="source" width="1439" height="872">https://www.pwmc.mx/web/image/2843</image>
++      <image type="source" height="1744" width="2876">https://gitlab.com/pwmc/svgvi/-/raw/1.6/screenshots/svgvi1.png</image>
+     </screenshot>
+   </screenshots>
+-  <content_rating type="oars-1.1" />
++  <content_rating type="oars-1.1"/>
+   <releases>
+-    <release version="1.6.0" date="2019-08-06" urgency="high" type="stable">
++    <release type="stable" date="2019-08-06" urgency="high" version="1.6.0">
+       <size type="download">9876592</size>
+       <description>
+         <p>Introduced new toolbox to insert basic shapes and text definitions</p>
+@@ -29,7 +34,7 @@
+         <p>Updated dependencies</p>
+       </description>
+     </release>
+-    <release version="1.4.0" date="2019-03-26" urgency="low" type="stable">
++    <release type="stable" date="2019-03-26" urgency="low" version="1.4.0">
+       <size type="download">9876592</size>
+       <description>
+         <p>Better search capabilities</p>
+@@ -39,19 +44,19 @@
+         <p>Added about dialog</p>
+       </description>
+     </release>
+-    <release version="1.2.1" date="2019-02-07" urgency="low" type="stable">
++    <release type="stable" date="2019-02-07" urgency="low" version="1.2.1">
+       <size type="download">11419440</size>
+       <description>
+         <p>Removing internal version of SVG renderer to use system default</p>
+       </description>
+     </release>
+-    <release version="1.2.0" date="2019-02-07" urgency="low" type="stable">
++    <release type="stable" date="2019-02-07" urgency="low" version="1.2.0">
+       <size type="download">12876864</size>
+       <description>
+         <p>Open to the world!</p>
+       </description>
+     </release>
+-    <release version="1.0.2" date="2019-01-25" urgency="low" type="stable">
++    <release type="stable" date="2019-01-25" urgency="low" version="1.0.2">
+       <size type="download">237300</size>
+       <description>
+         <p>Open to the world!</p>
+@@ -59,14 +64,8 @@
+     </release>
+   </releases>
+   <custom>
+-     <value key="x-appcenter-color-primary">#4e9a06</value>
+-     <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+-     <value key="x-appcenter-suggested-price">20</value>
++    <value key="x-appcenter-color-primary">#4e9a06</value>
++    <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
++    <value key="x-appcenter-suggested-price">20</value>
+   </custom>
+ </component>
+-
+-
+-
+-
+-
+-
+-- 
+2.37.2
+

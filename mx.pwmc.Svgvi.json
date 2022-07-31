@@ -105,8 +105,11 @@
         },
         {
           "type": "patch",
-          "path": "appdata-screenshot.patch"
+          "path": "appdata-patch.patch"
         }
+      ],
+      "post-install": [
+        "rm /app/share/icons/hicolor/512x512/apps/mx.pwmc.Svgvi.png"
       ]
     }
   ]

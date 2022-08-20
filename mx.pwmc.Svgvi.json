@@ -72,14 +72,15 @@
     {
       "name": "gsvgtk",
       "buildsystem": "meson",
-      "config-opts": [
-        "-Ddisable-clutter=true"
-      ],
       "sources": [
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvgtk.git",
           "commit": "dd5b7331e8b75946898b22658d9c8a4cd651a765"
+        },
+        {
+          "type": "patch",
+          "path": "fix-version.patch"
         }
       ]
     },

@@ -25,27 +25,13 @@
   ],
   "modules": [
     {
-      "name": "libgee",
-      "make-install-args": [
-        "girdir=/app/share/gir-1.0",
-        "typelibdir=/app/lib/girepository-1.0"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.gnome.org/sources/libgee/0.20/libgee-0.20.1.tar.xz",
-          "sha256": "bb2802d29a518e8c6d2992884691f06ccfcc25792a5686178575c7111fea4630"
-        }
-      ]
-    },
-    {
       "name": "gxml",
       "buildsystem": "meson",
       "sources": [
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gxml.git",
-          "branch": "0.20.3"
+          "tag": "0.20.3"
         }
       ]
     },
@@ -56,7 +42,7 @@
         {
           "type": "git",
           "url": "https://gitlab.com/esodan/gresg.git",
-          "branch": "0.6.0"
+          "tag": "0.6.0"
         }
       ]
     },
@@ -67,21 +53,18 @@
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvg.git",
-          "branch": "0.10.2"
+          "tag": "0.10.3"
         }
       ]
     },
     {
       "name": "gsvgtk",
       "buildsystem": "meson",
-      "config-opts": [
-        "-Ddisable-clutter=true"
-      ],
       "sources": [
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvgtk.git",
-          "commit": "ee4fd403ab9bfd595335a743cf5f6cc3e690dd61"
+          "tag": "0.11.0"
         }
       ]
     },
@@ -103,7 +86,7 @@
         {
           "type": "git",
           "url": "https://gitlab.com/pwmc/svgvi.git",
-          "commit": "de5e13615b4e039efae44ba8ccd167766003f42b"
+          "tag": "2.0.1"
         }
       ]
     }

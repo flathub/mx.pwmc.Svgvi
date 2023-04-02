@@ -31,7 +31,8 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gxml.git",
-          "tag": "0.20.3"
+          "tag": "0.20.3",
+          "commit": "3582c7eabf464ebd256a8f8ccbfc40f69800b222"
         }
       ]
     },
@@ -42,7 +43,8 @@
         {
           "type": "git",
           "url": "https://gitlab.com/esodan/gresg.git",
-          "tag": "0.6.0"
+          "tag": "0.6.0",
+          "commit": "464e1b2c5313c4cd9e7efc521ac28ccd57588b0d"
         }
       ]
     },
@@ -53,7 +55,8 @@
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvg.git",
-          "tag": "0.10.3"
+          "tag": "0.10.3",
+          "commit": "aa89086f0a885bac5ca0c8c57e3ac4b596dd3fec"
         }
       ]
     },
@@ -64,18 +67,8 @@
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvgtk.git",
-          "tag": "0.11.0"
-        }
-      ]
-    },
-    {
-      "name": "gtksourceview",
-      "buildsystem": "meson",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.gnome.org/sources/gtksourceview/5.4/gtksourceview-5.4.2.tar.xz",
-          "sha256": "ad140e07eb841910de483c092bd4885abd29baadd6e95fa22d93ed2df0b79de7"
+          "tag": "0.11.0",
+          "commit": "853eeaccdf8fc15275d191c449609f1524ab512f"
         }
       ]
     },
@@ -86,7 +79,8 @@
         {
           "type": "git",
           "url": "https://gitlab.com/pwmc/svgvi.git",
-          "tag": "2.0.2"
+          "tag": "2.0.2",
+          "commit": "e4655bf33224e2095f3fcb831d589eabaa44705b"
         }
       ]
     }

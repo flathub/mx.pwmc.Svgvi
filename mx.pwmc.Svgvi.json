@@ -41,7 +41,7 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://gitlab.com/esodan/gresg.git",
+          "url": "https://gitlab.com/gsvg/gresg.git",
           "tag": "0.6.0"
         }
       ]
@@ -85,7 +85,7 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://gitlab.com/pwmc/svgvi.git",
+          "url": "https://gitlab.com/gsvg/svgvi.git",
           "tag": "2.0.2"
         }
       ]

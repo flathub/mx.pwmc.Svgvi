@@ -31,18 +31,7 @@
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gxml.git",
-          "tag": "0.20.3"
-        }
-      ]
-    },
-    {
-      "name": "gresg",
-      "buildsystem": "meson",
-      "sources": [
-        {
-          "type": "git",
-          "url": "https://gitlab.com/esodan/gresg.git",
-          "tag": "0.6.0"
+          "tag": "0.20.4"
         }
       ]
     },
@@ -53,7 +42,7 @@
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvg.git",
-          "tag": "0.10.3"
+          "tag": "0.10.4"
         }
       ]
     },
@@ -86,7 +75,7 @@
         {
           "type": "git",
           "url": "https://gitlab.com/pwmc/svgvi.git",
-          "tag": "2.0.2"
+          "tag": "2.0.3"
         }
       ]
     }

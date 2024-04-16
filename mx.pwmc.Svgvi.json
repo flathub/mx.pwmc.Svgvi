@@ -1,7 +1,7 @@
 {
   "app-id": "mx.pwmc.Svgvi",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "42",
+  "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
   "command": "mx.pwmc.Svgvi",
   "finish-args": [

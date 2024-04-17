@@ -1,7 +1,7 @@
 {
   "app-id": "mx.pwmc.Svgvi",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "42",
+  "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
   "command": "mx.pwmc.Svgvi",
   "finish-args": [
@@ -41,7 +41,7 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://gitlab.com/esodan/gresg.git",
+          "url": "https://gitlab.com/gsvg/gresg.git",
           "tag": "0.6.0"
         }
       ]
@@ -53,7 +53,7 @@
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvg.git",
-          "tag": "0.10.3"
+          "tag": "0.10.4"
         }
       ]
     },
@@ -85,8 +85,12 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://gitlab.com/pwmc/svgvi.git",
+          "url": "https://gitlab.com/gsvg/svgvi.git",
           "tag": "2.0.2"
+        },
+        {
+          "type": "patch",
+          "path": "appdata.patch"
         }
       ]
     }

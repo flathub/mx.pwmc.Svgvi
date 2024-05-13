@@ -1,7 +1,7 @@
 {
   "app-id": "mx.pwmc.Svgvi",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "42",
+  "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
   "command": "mx.pwmc.Svgvi",
   "finish-args": [
@@ -87,6 +87,10 @@
           "type": "git",
           "url": "https://gitlab.com/pwmc/svgvi.git",
           "tag": "2.0.2"
+        },
+        {
+          "type": "patch",
+          "path": "fix_appdata.patch"
         }
       ]
     }

@@ -1,0 +1,65 @@
+diff --git a/data/mx.pwmc.Svgvi.appdata.xml.in b/data/mx.pwmc.Svgvi.appdata.xml.in
+index 62ac7f8..758afee 100644
+--- a/data/mx.pwmc.Svgvi.appdata.xml.in
++++ b/data/mx.pwmc.Svgvi.appdata.xml.in
+@@ -12,9 +12,14 @@
+   <name>Svgvi</name>
+   <summary>SVG viewer and editor using XML declarations</summary>
+   <update_contact>esodan@gmail.com</update_contact>
++  <developer_name translatable="no">Daniel Espinosa Ortiz</developer_name>
++  <developer id="io.gitlab.gsvg">
++    <name translatable="no">Daniel Espinosa Ortiz</name>
++  </developer>
+   <url type="homepage">https://gitlab.com/gsvg/svgvi/-/wikis/home</url>
+   <url type="bugtracker">https://gitlab.com/gsvg/svgvi/-/issues</url>
+-  <translation>https://gitlab.com/gsvg/svgvi/</translation>
++  <url type="vcs-browser">https://gitlab.com/gsvg/svgvi</url>
++  <translation type="gettext">svgvi</translation>
+   <description>
+     <p>SVG file viewer and editor, with preview on changes made on XML definition</p>
+   </description>
+@@ -27,44 +32,38 @@
+   <content_rating type="oars-1.1" />
+   <releases>
+     <release type="stable" date="2022-09-08" urgency="low" version="2.0.2">
+-      <size type="download">7858728</size>
+       <description>
+         <p>Ported to GTK 4.0</p>
+         <p>Updated dependencies</p>
+       </description>
+     </release>
+     <release version="1.6.0" date="2019-08-06" urgency="low" type="stable">
+-      <size type="download">9876592</size>
+       <description>
+         <p>Introduced new toolbox to insert basic shapes and text definitions</p>
+         <p>Now any text introduced is saved even if it is not a valid SVG to increase fault tolerant</p>
+         <p>Updated dependencies</p>
+       </description>
+     </release>
+     <release version="1.4.0" date="2019-03-26" urgency="low" type="stable">
+-      <size type="download">9876592</size>
+       <description>
+         <p>Better search capabilities</p>
+         <p>Better no UI block while loading or rendering files</p>
+         <p>Added filters for open/save as dialogs</p>
+         <p>Updated dependencies</p>
+         <p>Added about dialog</p>
+       </description>
+     </release>
+     <release version="1.2.1" date="2019-02-07" urgency="low" type="stable">
+-      <size type="download">11419440</size>
+       <description>
+         <p>Removing internal version of SVG renderer to use system default</p>
+       </description>
+     </release>
+     <release version="1.2.0" date="2019-02-07" urgency="low" type="stable">
+-      <size type="download">12876864</size>
+       <description>
+         <p>Open to the world!</p>
+       </description>
+     </release>
+     <release version="1.0.2" date="2019-01-25" urgency="low" type="stable">
+-      <size type="download">237300</size>
+       <description>
+         <p>Open to the world!</p>
+       </description>

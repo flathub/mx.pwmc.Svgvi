@@ -5,7 +5,6 @@
   "sdk": "org.gnome.Sdk",
   "command": "mx.pwmc.Svgvi",
   "finish-args": [
-    "--share=network",
     "--share=ipc",
     "--device=dri",
     "--socket=fallback-x11",

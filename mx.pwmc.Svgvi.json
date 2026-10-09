@@ -19,6 +19,8 @@
     "/share/gtk-doc",
     "/share/man",
     "/share/pkgconfig",
+    "/share/gir-1.0",
+    "/lib/girepository-1.0",
     "/share/vala",
     "*.la",
     "*.a"
@@ -32,7 +34,11 @@
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gxml.git",
           "tag": "0.20.4",
-          "commit": "101eb887d6d656cdccd8866457f5448bebeddb14"
+          "commit": "101eb887d6d656cdccd8866457f5448bebeddb14",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^([\\d.]+)$"
+          }
         }
       ]
     },
@@ -44,7 +50,11 @@
           "type": "git",
           "url": "https://gitlab.com/gsvg/gresg.git",
           "tag": "0.6.0",
-          "commit": "464e1b2c5313c4cd9e7efc521ac28ccd57588b0d"
+          "commit": "464e1b2c5313c4cd9e7efc521ac28ccd57588b0d",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^([\\d.]+)$"
+          }
         }
       ]
     },
@@ -56,7 +66,11 @@
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvg.git",
           "tag": "0.10.4",
-          "commit": "e53af0287b61f9780aeb8f3dcb6bd1c5245312f6"
+          "commit": "e53af0287b61f9780aeb8f3dcb6bd1c5245312f6",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^([\\d.]+)$"
+          }
         }
       ]
     },
@@ -75,24 +89,17 @@
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvgtk.git",
           "tag": "0.14.1",
-          "commit": "8f5117bf712a0d08dcb0420059fc83f57bbb5e1f"
+          "commit": "8f5117bf712a0d08dcb0420059fc83f57bbb5e1f",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^([\\d.]+)$"
+          }
         },
         {
           "type": "shell",
           "commands": [
             "sed -i \"/subdir('demo')/d\" src/meson.build"
           ]
-        }
-      ]
-    },
-    {
-      "name": "gtksourceview",
-      "buildsystem": "meson",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.gnome.org/sources/gtksourceview/5.4/gtksourceview-5.4.2.tar.xz",
-          "sha256": "ad140e07eb841910de483c092bd4885abd29baadd6e95fa22d93ed2df0b79de7"
         }
       ]
     },
@@ -104,7 +111,11 @@
           "type": "git",
           "url": "https://gitlab.com/gsvg/svgvi.git",
           "tag": "2.0.5",
-          "commit": "4e2221bf2fcec035ce01494ac5caa3ca1e2f22e2"
+          "commit": "4e2221bf2fcec035ce01494ac5caa3ca1e2f22e2",
+          "x-checker-data": {
+            "type": "git",
+            "tag-pattern": "^([\\d.]+)$"
+          }
         }
       ]
     }

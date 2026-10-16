@@ -1,11 +1,10 @@
 {
   "app-id": "mx.pwmc.Svgvi",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "46",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "mx.pwmc.Svgvi",
   "finish-args": [
-    "--share=network",
     "--share=ipc",
     "--device=dri",
     "--socket=fallback-x11",
@@ -27,11 +26,15 @@
     {
       "name": "gxml",
       "buildsystem": "meson",
+      "config-opts": [
+        "-Ddocs=false"
+      ],
       "sources": [
         {
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gxml.git",
-          "tag": "0.20.3"
+          "tag": "0.20.4",
+          "commit": "101eb887d6d656cdccd8866457f5448bebeddb14"
         }
       ]
     },
@@ -41,41 +44,44 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://gitlab.com/esodan/gresg.git",
-          "tag": "0.6.0"
+          "url": "https://gitlab.com/gsvg/gresg.git",
+          "tag": "0.6.0",
+          "commit": "464e1b2c5313c4cd9e7efc521ac28ccd57588b0d"
         }
       ]
     },
     {
       "name": "gsvg",
       "buildsystem": "meson",
+      "config-opts": [
+        "-Ddocs=false"
+      ],
       "sources": [
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvg.git",
-          "tag": "0.10.3"
+          "tag": "0.10.6",
+          "commit": "d8ae82032a5ffed1a5aa2d91e2a6033cc6f1c6f5"
         }
       ]
     },
     {
       "name": "gsvgtk",
       "buildsystem": "meson",
+      "config-opts": [
+        "-Ddocs=false",
+        "-Dtests=false",
+        "-Ddemo=false"
+      ],
+      "build-options": {
+        "ldflags": "-lm"
+      },
       "sources": [
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvgtk.git",
-          "tag": "0.11.0"
-        }
-      ]
-    },
-    {
-      "name": "gtksourceview",
-      "buildsystem": "meson",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.gnome.org/sources/gtksourceview/5.4/gtksourceview-5.4.2.tar.xz",
-          "sha256": "ad140e07eb841910de483c092bd4885abd29baadd6e95fa22d93ed2df0b79de7"
+          "tag": "0.16.0",
+          "commit": "252c64f79a2696fcf06b3d8b3885c53642975563"
         }
       ]
     },
@@ -85,12 +91,9 @@
       "sources": [
         {
           "type": "git",
-          "url": "https://gitlab.com/pwmc/svgvi.git",
-          "tag": "2.0.2"
-        },
-        {
-          "type": "patch",
-          "path": "fix_appdata.patch"
+          "url": "https://gitlab.com/gsvg/svgvi.git",
+          "tag": "3.0.1",
+          "commit": "49645c4d0086918ec66cc7c1eca9d41f356eae2e"
         }
       ]
     }

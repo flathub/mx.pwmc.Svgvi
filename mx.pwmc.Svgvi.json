@@ -34,11 +34,7 @@
           "type": "git",
           "url": "https://gitlab.gnome.org/GNOME/gxml.git",
           "tag": "0.20.4",
-          "commit": "101eb887d6d656cdccd8866457f5448bebeddb14",
-          "x-checker-data": {
-            "type": "git",
-            "tag-pattern": "^([\\d.]+)$"
-          }
+          "commit": "101eb887d6d656cdccd8866457f5448bebeddb14"
         }
       ]
     },
@@ -50,11 +46,7 @@
           "type": "git",
           "url": "https://gitlab.com/gsvg/gresg.git",
           "tag": "0.6.0",
-          "commit": "464e1b2c5313c4cd9e7efc521ac28ccd57588b0d",
-          "x-checker-data": {
-            "type": "git",
-            "tag-pattern": "^([\\d.]+)$"
-          }
+          "commit": "464e1b2c5313c4cd9e7efc521ac28ccd57588b0d"
         }
       ]
     },
@@ -69,11 +61,7 @@
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvg.git",
           "tag": "0.10.6",
-          "commit": "d8ae82032a5ffed1a5aa2d91e2a6033cc6f1c6f5",
-          "x-checker-data": {
-            "type": "git",
-            "tag-pattern": "^([\\d.]+)$"
-          }
+          "commit": "d8ae82032a5ffed1a5aa2d91e2a6033cc6f1c6f5"
         }
       ]
     },
@@ -93,11 +81,7 @@
           "type": "git",
           "url": "https://gitlab.com/gsvg/gsvgtk.git",
           "tag": "0.16.0",
-          "commit": "252c64f79a2696fcf06b3d8b3885c53642975563",
-          "x-checker-data": {
-            "type": "git",
-            "tag-pattern": "^([\\d.]+)$"
-          }
+          "commit": "252c64f79a2696fcf06b3d8b3885c53642975563"
         }
       ]
     },
@@ -108,12 +92,8 @@
         {
           "type": "git",
           "url": "https://gitlab.com/gsvg/svgvi.git",
-          "tag": "3.0.0",
-          "commit": "c402ed84017d36037d313c63154d3ddd456a4608",
-          "x-checker-data": {
-            "type": "git",
-            "tag-pattern": "^([\\d.]+)$"
-          }
+          "tag": "3.0.1",
+          "commit": "49645c4d0086918ec66cc7c1eca9d41f356eae2e"
         }
       ]
     }
